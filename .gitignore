@@ -1,0 +1,31 @@
+# Virtual environments (yours is named .sales)
+.sales/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated files (recreate with: python -m src.pipeline)
+data/processed/*
+!data/processed/.gitkeep
+.pytest_cache/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
